@@ -1,0 +1,24 @@
+{
+  "name": "vue-nes",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+	"lint": "tslint src/*",
+    "upload": "tsc && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eseom/vue-nes"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "nes": "^6.4.2",
+    "tslint": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/hapi": "^16.0.0",
+    "@types/node": "^7.0.5",
+    "typescript": "^2.3.1"
+  }
+}
