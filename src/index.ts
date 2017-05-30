@@ -74,6 +74,7 @@ export default {
           return {
             path: s,
             handler(update) {
+              update.__path = s
               store.commit(SOCKET_MESSAGE, {
                 message: update,
               })
